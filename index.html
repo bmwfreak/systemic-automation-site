@@ -4,9 +4,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Programme verbinden, Belege verarbeiten, Messdaten auswerten. Individuelle Automatisierung für Unternehmen in Hamburg und bundesweit. Prozesscheck 99 € netto." name="description"/>
+<meta content="Programme verbinden, Belege verarbeiten, Messdaten auswerten. Automatisierung für Unternehmen in Hamburg und bundesweit. Prozesscheck 99 €." name="description"/>
 <meta content="#0f172a" name="theme-color"/>
-<title>Prozessautomatisierung für KMU und Industrie | Systemic Automation</title>
+<title>Prozessautomatisierung Hamburg | Systemic Automation</title>
 <link href="https://systemic-automation.de/" rel="canonical"/>
 <link href="favicon.svg" rel="icon" type="image/svg+xml"/>
 <link href="favicon.ico" rel="alternate icon"/>
@@ -14,7 +14,7 @@
 <!-- Self-hosted Inter (DSGVO-konform, kein Google-Server zur Laufzeit) -->
 <link as="font" crossorigin="" href="fonts/inter-latin-var.woff2" rel="preload" type="font/woff2"/>
 <!-- Open Graph -->
-<meta content="Prozessautomatisierung für KMU und Industrie | Systemic Automation" property="og:title"/>
+<meta content="Prozessautomatisierung Hamburg | Systemic Automation" property="og:title"/>
 <meta content="Programme verbinden und manuelle Arbeit automatisieren. Individuelle Abläufe für Unternehmen und Industrie. Hamburg und bundesweit remote." property="og:description"/>
 <meta content="https://systemic-automation.de/og-image-v2.jpg" property="og:image"/>
 <meta content="Systemic Automation: Prozessautomatisierung für KMU und Industrie" property="og:image:alt"/>
@@ -26,7 +26,7 @@
 <meta content="Systemic Automation" property="og:site_name"/>
 <!-- Twitter -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Prozessautomatisierung für KMU und Industrie | Systemic Automation" name="twitter:title"/>
+<meta content="Prozessautomatisierung Hamburg | Systemic Automation" name="twitter:title"/>
 <meta content="Schnittstellen, KI und individuelle Automatisierung für Unternehmen und Industrie. Umfang und Preis vereinbaren wir vor der Umsetzung." name="twitter:description"/>
 <meta content="https://systemic-automation.de/og-image-v2.jpg" name="twitter:image"/>
 <!-- LocalBusiness / ProfessionalService Structured Data -->
@@ -50,8 +50,11 @@
   },
   "founder": {
     "@type": "Person",
+    "@id": "https://systemic-automation.de/#emre",
     "name": "Emre Küllüoğlu",
     "jobTitle": "Inhaber",
+    "description": "Maschinenbau-Ingenieur (Master)",
+    "worksFor": { "@id": "https://systemic-automation.de/#organization" },
     "url": "https://systemic-automation.de/",
     "sameAs": ["https://www.linkedin.com/in/emre-k%C3%BCll%C3%BCoglu-788731420/"]
   },
@@ -110,14 +113,12 @@
       },
       {
         "@type": "Offer",
-        "price": "1500",
         "priceCurrency": "EUR",
         "priceSpecification": {
           "@type": "PriceSpecification",
-          "price": "1500",
+          "minPrice": "1500",
           "priceCurrency": "EUR",
-          "valueAddedTaxIncluded": false,
-          "description": "Festpreis ab 1.500 € netto, 2-3 Arbeitstage"
+          "description": "Festpreis ab 1.500 €, 2-3 Arbeitstage"
         },
         "itemOffered": {
           "@type": "Service",
@@ -127,14 +128,12 @@
       },
       {
         "@type": "Offer",
-        "price": "350",
         "priceCurrency": "EUR",
         "priceSpecification": {
           "@type": "PriceSpecification",
-          "price": "350",
+          "minPrice": "350",
           "priceCurrency": "EUR",
-          "valueAddedTaxIncluded": false,
-          "description": "Festpreis ab 350 € netto pro Workflow nach Spezifikation"
+          "description": "Festpreis ab 350 € pro Workflow nach Spezifikation"
         },
         "itemOffered": {
           "@type": "Service",
@@ -144,14 +143,12 @@
       },
       {
         "@type": "Offer",
-        "price": "1900",
         "priceCurrency": "EUR",
         "priceSpecification": {
           "@type": "PriceSpecification",
-          "price": "1900",
+          "minPrice": "1900",
           "priceCurrency": "EUR",
-          "valueAddedTaxIncluded": false,
-          "description": "Festpreis ab 1.900 € netto nach Spezifikation"
+          "description": "Festpreis ab 1.900 € nach Spezifikation"
         },
         "itemOffered": {
           "@type": "Service",
@@ -167,8 +164,7 @@
           "@type": "UnitPriceSpecification",
           "price": "95",
           "priceCurrency": "EUR",
-          "unitText": "HUR",
-          "valueAddedTaxIncluded": false
+          "unitCode": "HUR"
         },
         "itemOffered": {
           "@type": "Service",
@@ -199,6 +195,19 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://systemic-automation.de/#website",
+  "name": "Systemic Automation",
+  "url": "https://systemic-automation.de/",
+  "inLanguage": "de",
+  "publisher": {
+    "@id": "https://systemic-automation.de/#organization"
+  }
+}
+</script>
 <!-- FAQ Structured Data -->
 <script type="application/ld+json">
 {
@@ -210,7 +219,7 @@
       "name": "Was ist Prozessautomatisierung für KMU?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Prozessautomatisierung heißt, dass ein Ablauf, der bei euch jede Woche gleich läuft, von einem Programm erledigt wird, zum Beispiel Belege erfassen oder eine Buchung in einen Rechnungsentwurf übertragen. Ein Mensch prüft das Ergebnis und gibt frei. Für kleine Büros, Handwerksbetriebe und den Mittelstand baue ich das zum vereinbarten Festpreis. Kosten für beteiligte Dienste klären wir vorab."
+        "text": "Prozessautomatisierung heißt, dass ein Ablauf, der bei euch jede Woche gleich läuft, von einem Programm erledigt wird, zum Beispiel Belege erfassen oder eine Buchung in einen Rechnungsentwurf übertragen. Ein Mensch prüft das Ergebnis. Für kleine Büros, Handwerksbetriebe und den Mittelstand baue ich das zum vereinbarten Festpreis. Kosten für beteiligte Dienste klären wir vorab."
       }
     },
     {
@@ -250,7 +259,7 @@
       "name": "Brauche ich für den Workflow eine Cloud-Lösung?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ihr braucht keine Cloud-Plattform und kein eigenes Konto. Die Anwendung läuft auf eurem Rechner, sendet Belege zur Texterkennung aber an Mistral über den EU-Endpunkt; Prüfung, Freigabe und Export bleiben lokal. E-Rechnungen im XML-Format liest sie ohne externen Dienst."
+        "text": "Ihr braucht keine Cloud-Plattform und kein eigenes Konto. Die Anwendung läuft auf eurem Rechner, sendet Belege zur Texterkennung aber an Mistral über den EU-Endpunkt; Prüfung und Export bleiben lokal. E-Rechnungen im XML-Format liest sie ohne externen Dienst."
       }
     },
     {
@@ -932,7 +941,7 @@
 <svg aria-hidden="true" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="15"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         Anrufen
       </a>
-</nav><details class="mobile-menu"><summary>Menü</summary><nav aria-label="Mobile Navigation"><a href="/#praxisbeispiel">Kundenprojekt</a><a href="/#workflows">KI im Büro</a><a href="/industrie">Industrie</a><a href="/sichtbarkeit">Sichtbarkeit</a><a href="/#preise">Leistungen und Preise</a><a href="/#kontakt">Kontakt</a></nav></details>
+</nav><details class="mobile-menu"><summary>Menü</summary><nav aria-label="Mobile Navigation"><a href="/#praxisbeispiel">Kundenprojekt</a><a href="/ki-im-buero">KI im Büro</a><a href="/industrie">Industrie</a><a href="/sichtbarkeit">Sichtbarkeit</a><a href="/#preise">Leistungen und Preise</a><a href="/#faq">FAQ</a><a href="/#kontakt">Kontakt</a></nav></details>
 </div>
 </header>
 <main id="main">
@@ -966,7 +975,7 @@
 <div class="make-proof-crop"><img src="/media/make-buchung-scharf.png" width="1870" height="397" loading="lazy" alt="Echter Make-Ablauf mit vier verbundenen Modulen: Webhook, Text parser, Array aggregator und HTTP." /></div>
 
 </button><span class="make-zoom-label">Ablauf vergrößern</span></figure>
-<ol class="make-proof-steps"><li><strong>Buchung empfangen</strong><span>Eine neue Buchung stößt den Ablauf an.</span></li><li><strong>Leistungen zuordnen</strong><span>Angaben werden erkannt und zu Positionen zusammengestellt.</span></li><li><strong>Entwurf prüfen</strong><span>Die Daten gehen an Lexware. Ein Mensch prüft den Beleg und gibt ihn frei.</span></li></ol>
+<ol class="make-proof-steps"><li><strong>Buchung empfangen</strong><span>Eine neue Buchung stößt den Ablauf an.</span></li><li><strong>Leistungen zuordnen</strong><span>Angaben werden erkannt und zu Positionen zusammengestellt.</span></li><li><strong>Entwurf prüfen</strong><span>Die Daten gehen an Lexware. Ein Mensch prüft den Beleg.</span></li></ol>
 
 <div class="case-conclusion"><p><strong>Andere Programme, ähnliche Doppelarbeit?</strong><br>Beschreibt mir, welche Daten ihr heute von einem Programm ins andere übertragt.</p><a class="btn btn-primary" href="#kontakt">Eigene Verbindung besprechen</a></div>
 </div>
@@ -975,23 +984,23 @@
 <section class="section-alt" id="workflows">
 <div class="container">
 <div class="section-head"><h2>Rechnungen erfassen, prüfen und exportieren</h2><p>Als fertige Anwendung, auf euren Bestand angepasst.</p></div>
-<div class="big-steps"><div class="big-step"><span class="bs-num">1</span><h3>Belege rein</h3><p>PDF, Scan oder Foto in den Ordner</p></div><div class="big-step"><span class="bs-num">2</span><h3>Doppelklick</h3><p>Felder werden automatisch erkannt</p></div><div class="big-step"><span class="bs-num">3</span><h3>Excel fertig</h3><p>Eine Zeile pro Rechnung, nachvollziehbar</p></div></div><div style="text-align:center;margin-top:28px"><a class="btn btn-primary btn-lg" href="tel:+491736762711">Klingt nach euch? Ruf an</a></div><details class="more"><summary>So arbeitet die Anwendung im Detail</summary><div class="more-body"><p>Rechnungen landen als PDF in einem Ordner oder werden ins Fenster gezogen. Das Werkzeug liest Lieferant, Rechnungsnummer, Datum, Beträge und IBAN aus und rechnet nach, ob Netto und Steuer zum Brutto passen. Wie gut es eure Scans liest, testen wir vorher mit euren eigenen Belegen. Danach exportiert ihr eine CSV-Tabelle für Excel. Ob sie zu eurem Importformat passt, prüfen wir vorab.</p><p>Entscheidend ist, was es <b>nicht</b> tut: Es gibt nichts ungeprüft weiter. Jeder Wert ist im Original markiert, unsichere Felder bleiben leer oder werden gekennzeichnet, und exportiert wird erst nach eurer Freigabe.</p><div class="wf-save">
+<div class="big-steps"><div class="big-step"><span class="bs-num">1</span><h3>Belege rein</h3><p>PDF, Scan oder Foto in den Ordner</p></div><div class="big-step"><span class="bs-num">2</span><h3>Doppelklick</h3><p>Felder werden automatisch erkannt</p></div><div class="big-step"><span class="bs-num">3</span><h3>Excel fertig</h3><p>Eine Zeile pro Rechnung, nachvollziehbar</p></div></div><div style="text-align:center;margin-top:28px"><a class="btn btn-primary btn-lg" href="tel:+491736762711">Klingt nach euch? Ruf an</a></div><details class="more"><summary>So arbeitet die Anwendung im Detail</summary><div class="more-body"><p>Rechnungen landen als PDF in einem Ordner oder werden ins Fenster gezogen. Das Werkzeug liest Lieferant, Rechnungsnummer, Datum, Beträge und IBAN aus und rechnet nach, ob Netto und Steuer zum Brutto passen. Wie gut es eure Scans liest, testen wir vorher mit euren eigenen Belegen. Danach exportiert ihr eine CSV-Tabelle für Excel. Ob sie zu eurem Importformat passt, prüfen wir vorab.</p><p>Entscheidend ist, was es <b>nicht</b> tut: Es gibt nichts ungeprüft weiter. Jeder Wert ist im Original markiert, unsichere Felder bleiben leer oder werden gekennzeichnet, und exportiert wird erst, wenn ihr geprüft habt.</p><div class="wf-save">
 <svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-width="2.2" viewBox="0 0 24 24" width="17"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
           Keine Pauschalzahl: Die Anwendung erfasst Bearbeitungszeit und Kosten je Beleg, damit ihr mit eurem bisherigen Aufwand vergleichen könnt.
-        </div></div></details><details class="more workflow-more"><summary>Prüfung und weitere Anwendungen</summary><div class="more-body"><p>Für diese Rechnungsanwendung bleiben Prüfung, Freigabe und Export auf eurem Rechner. Für die Texterkennung werden Belege an Mistral über den EU-Endpunkt übertragen. Die lokale Anwendung hat keine wiederkehrenden Lizenzgebühren; Verbrauchskosten klären wir im Angebot. Bei Verbindungen über Make gelten die Tarife der beteiligten Dienste.</p><h3 class="tile-head">Warum ihr den Zahlen trauen könnt</h3><div class="service-rows"><div class="tile"><h3>Fundstelle zu jedem Wert</h3><p>Ausschnitt aus dem Original, mit Seitenzahl</p></div><div class="tile"><h3>Unklares bleibt offen</h3><p>Lieber eine Lücke als ein falscher Wert</p></div><div class="tile"><h3>Es rechnet nach</h3><p>Netto plus Steuer gegen Brutto geprüft</p></div></div><details class="more"><summary>Die drei Prüfungen im Detail</summary><div class="more-body"><p><b>Fundstelle zu jedem Wert</b> Neben jeder Angabe steht der Ausschnitt aus eurem Originalbeleg, mit Seitenzahl. Ihr müsst nicht glauben, dass der Betrag stimmt, ihr seht die Stelle, aus der er kommt.</p><p><b>Unklares bleibt offen</b> Findet das Werkzeug zwei mögliche Treffer, entscheidet es nicht. Das Feld bleibt leer und wird als prüfpflichtig markiert. Lieber eine Lücke, die auffällt, als eine falsche Zahl, die niemand bemerkt.</p><p><b>Es rechnet nach</b> Netto plus Steuer wird gegen den gedruckten Bruttobetrag geprüft. Stimmt es nicht, gibt es einen Hinweis. Sind die Summen nicht eindeutig lesbar, steht dort ausdrücklich „nicht geprüft“ statt eines stillen Häkchens.</p></div></details><h3 class="tile-head">Auch das lässt sich automatisieren</h3><div class="service-rows"><div class="tile"><h3>Zuordnung in der Hausverwaltung</h3><p>Objekt, Einheit, Kostenart</p></div><div class="tile"><h3>Excel-Konsolidierung</h3><p>Mehrere Listen, eine Wochenübersicht</p></div><div class="tile"><h3>E-Mail-Protokoll</h3><p>Eingangsmails als Liste mit Status</p></div><div class="tile"><h3>Individuell</h3><p>Spezialfälle nach schriftlicher Schätzung</p></div></div><details class="more"><summary>Die Bausteine im Detail</summary><div class="more-body"><p><b>Zuordnung in der Hausverwaltung</b> Welches Objekt, welche Einheit, welche Kostenart, umlagefähig oder nicht. Diese Zuordnung nimmt euch kein Steuerberater ab und keine Standardsoftware zuverlässig. Genau dort setzt der Ausbau an.</p><p><b>Excel-Konsolidierung</b> Mehrere Listen automatisch zu einer Wochenübersicht zusammenführen, inkl. Auffälligkeits-Markierung.</p><p><b>E-Mail-Protokoll</b> Eingangsmails als strukturierte Excel-Liste: Absender, Thema, Kategorie, Status.</p><p><b>Individuell</b> Spezialfälle und mehrere verknüpfte Quellen, nach schriftlicher Aufwandsschätzung.</p></div></details></div></details>
+        </div></div></details><details class="more workflow-more"><summary>Prüfung und weitere Anwendungen</summary><div class="more-body"><p>Für diese Rechnungsanwendung bleiben Prüfung und Export auf eurem Rechner. Für die Texterkennung werden Belege an Mistral über den EU-Endpunkt übertragen. Die lokale Anwendung hat keine wiederkehrenden Lizenzgebühren; Verbrauchskosten klären wir im Angebot. Bei Verbindungen über Make gelten die Tarife der beteiligten Dienste.</p><h3 class="tile-head">Warum ihr den Zahlen trauen könnt</h3><div class="service-rows"><div class="tile"><h3>Fundstelle zu jedem Wert</h3><p>Ausschnitt aus dem Original, mit Seitenzahl</p></div><div class="tile"><h3>Unklares bleibt offen</h3><p>Lieber eine Lücke als ein falscher Wert</p></div><div class="tile"><h3>Es rechnet nach</h3><p>Netto plus Steuer gegen Brutto geprüft</p></div></div><details class="more"><summary>Die drei Prüfungen im Detail</summary><div class="more-body"><p><b>Fundstelle zu jedem Wert</b> Neben jeder Angabe steht der Ausschnitt aus eurem Originalbeleg, mit Seitenzahl. Ihr müsst nicht glauben, dass der Betrag stimmt, ihr seht die Stelle, aus der er kommt.</p><p><b>Unklares bleibt offen</b> Findet das Werkzeug zwei mögliche Treffer, entscheidet es nicht. Das Feld bleibt leer und wird als prüfpflichtig markiert. Lieber eine Lücke, die auffällt, als eine falsche Zahl, die niemand bemerkt.</p><p><b>Es rechnet nach</b> Netto plus Steuer wird gegen den gedruckten Bruttobetrag geprüft. Stimmt es nicht, gibt es einen Hinweis. Sind die Summen nicht eindeutig lesbar, steht dort ausdrücklich „nicht geprüft“ statt eines stillen Häkchens.</p></div></details><h3 class="tile-head">Auch das lässt sich automatisieren</h3><div class="service-rows"><div class="tile"><h3>Zuordnung in der Hausverwaltung</h3><p>Objekt, Einheit, Kostenart</p></div><div class="tile"><h3>Excel-Konsolidierung</h3><p>Mehrere Listen, eine Wochenübersicht</p></div><div class="tile"><h3>E-Mail-Protokoll</h3><p>Eingangsmails als Liste mit Status</p></div><div class="tile"><h3>Sonderfälle</h3><p>Spezialfälle nach schriftlicher Schätzung</p></div></div><details class="more"><summary>Die Bausteine im Detail</summary><div class="more-body"><p><b>Zuordnung in der Hausverwaltung</b> Welches Objekt, welche Einheit, welche Kostenart, umlagefähig oder nicht. Diese Zuordnung nimmt euch kein Steuerberater ab und keine Standardsoftware zuverlässig. Genau dort setzt der Ausbau an.</p><p><b>Excel-Konsolidierung</b> Mehrere Listen automatisch zu einer Wochenübersicht zusammenführen, inkl. Auffälligkeits-Markierung.</p><p><b>E-Mail-Protokoll</b> Eingangsmails als strukturierte Excel-Liste: Absender, Thema, Kategorie, Status.</p><p><b>Sonderfälle</b> Spezialfälle und mehrere verknüpfte Quellen, nach schriftlicher Aufwandsschätzung.</p></div></details></div></details>
 
 <div class="workflow-comparison-block" id="vergleich">
 <div class="section-head">
 
 <h3>Rechnungsdaten übernehmen statt abtippen</h3>
 </div>
-<table class="workflow-comparison"><thead><tr><th scope="col">Von Hand</th><th scope="col">Mit der Anwendung</th></tr></thead><tbody><tr><td>Jedes PDF einzeln öffnen</td><td>PDFs in einen Ordner legen</td></tr><tr><td>Datum, Nummer, Betrag abtippen</td><td>Doppelklick auf „Start“</td></tr><tr><td>In Excel kopieren und prüfen</td><td>Werte am Original prüfen und freigeben</td></tr></tbody></table>
+<table class="workflow-comparison"><thead><tr><th scope="col">Von Hand</th><th scope="col">Mit der Anwendung</th></tr></thead><tbody><tr><td>Jedes PDF einzeln öffnen</td><td>PDFs in einen Ordner legen</td></tr><tr><td>Datum, Nummer, Betrag abtippen</td><td>Doppelklick auf „Start“</td></tr><tr><td>In Excel kopieren und prüfen</td><td>Werte am Original prüfen</td></tr></tbody></table>
 </div>
 <details class="more workflow-tools" id="ki"><summary>Wo KI hilft und wo ein fester Ablauf reicht</summary>
 <div class="more-body">
 <div class="section-head"><h3>Welche Aufgabe übernimmt welches Werkzeug?</h3></div>
-<div class="method-columns"><div class="tile"><h3>Belege lesen</h3><p>KI erkennt Lieferant, Datum und Beträge, ihr prüft am Original</p></div><div class="tile"><h3>Programme verbinden</h3><p>Buchung zu Rechnungsentwurf läuft als fester Ablauf, ohne KI</p></div><div class="tile"><h3>Mensch gibt frei</h3><p>Nichts geht ungeprüft raus</p></div></div>
-<details class="more"><summary>Mehr zu KI-Automatisierung im Büro</summary><div class="more-body"><p>KI-Automatisierung heißt bei mir: Sie liest und sortiert dort, wo Dokumente unterschiedlich aussehen, zum Beispiel Rechnungen und Belege. Wo ein Ablauf immer gleich ist, etwa eine Buchung in einen Rechnungsentwurf zu übertragen, reicht ein fester Ablauf ohne KI. Ich sage euch, was zu eurem Büro passt, und baue es als Festpreis.</p><p>Wer KI im Unternehmen einführen will, fängt mit einem Ablauf an. Im Prozesscheck (99 €) gehen wir euren Büroalltag durch und finden die Aufgabe, die am meisten Zeit frisst. Eine allgemeine KI-Beratung oder KI-Strategie biete ich nicht an: Ich arbeite immer an einem konkreten Prozess, und ein Mensch gibt jedes Ergebnis frei.</p><p>Messdaten und Prüfberichte in der Industrie haben eine eigene Seite: <a href="/industrie">Industrie</a>.</p><p>Welche Büroaufgaben sich für KI eignen, was es kostet und welche Regeln gelten, steht im <a href="/ki-im-buero">KI-Ratgeber</a>.</p><p>Prozessautomatisierung für KMU muss kein Großprojekt sein. Ein digitales Büro entsteht Schritt für Schritt: ein wiederkehrender Ablauf nach dem anderen, zum Beispiel Belege erfassen, Buchungen in Rechnungsentwürfe übertragen oder Listen zusammenführen. Das ist Workflow-Automatisierung, die zu eurem Alltag passt. Prozessoptimierung mit KI und durch Digitalisierung beginnt bei dem einen Ablauf, der heute am meisten Zeit kostet.</p></div></details>
+<div class="method-columns"><div class="tile"><h3>Belege lesen</h3><p>KI erkennt Lieferant, Datum und Beträge, ihr prüft am Original</p></div><div class="tile"><h3>Programme verbinden</h3><p>Buchung zu Rechnungsentwurf läuft als fester Ablauf, ohne KI</p></div><div class="tile"><h3>Mensch prüft</h3><p>Nichts geht ungeprüft raus</p></div></div>
+<details class="more"><summary>Mehr zu KI-Automatisierung im Büro</summary><div class="more-body"><p>KI-Automatisierung heißt bei mir: Sie liest und sortiert dort, wo Dokumente unterschiedlich aussehen, zum Beispiel Rechnungen und Belege. Wo ein Ablauf immer gleich ist, etwa eine Buchung in einen Rechnungsentwurf zu übertragen, reicht ein fester Ablauf ohne KI. Ich sage euch, was zu eurem Büro passt, und baue es als Festpreis.</p><p>Wer KI im Unternehmen einführen will, fängt mit einem Ablauf an. Im Prozesscheck (99 €) gehen wir euren Büroalltag durch und finden die Aufgabe, die am meisten Zeit frisst. Eine allgemeine KI-Beratung oder KI-Strategie biete ich nicht an: Ich arbeite immer an einem konkreten Prozess.</p><p>Messdaten und Prüfberichte in der Industrie haben eine eigene Seite: <a href="/industrie">Industrie</a>.</p><p>Welche Büroaufgaben sich für KI eignen, was es kostet und welche Regeln gelten, steht im <a href="/ki-im-buero">KI-Ratgeber</a>.</p></div></details>
 </div>
 </details></div>
 </section>
@@ -1026,7 +1035,7 @@
 <div class="pricing price3"><div class="price-card">
 <h3>Prozesscheck</h3>
 <p class="price-sub">Nach 15 Minuten kostenloser Klärung</p>
-<div class="price-amount"><span class="num">99 €</span><span class="unit">netto</span></div>
+<div class="price-amount"><span class="num">99 €</span></div>
 <p class="price-note">Pauschal, Festpreis</p>
 <ul><li> Vorab 15 Min. kostenlos: passt es überhaupt?</li><li> 45 Minuten, online oder vor Ort</li></ul><details class="more"><summary>Alle Leistungen</summary><div class="more-body"><ul><li> Die drei größten Zeitfresser benannt</li><li> Eine Seite Befund &amp; Maßnahmen, am nächsten Werktag</li><li> Klare Empfehlung: Pilot, Audit oder nichts</li><li> Ohne weitere Verpflichtung</li></ul></div></details>
 <a class="btn btn-secondary" href="#kontakt">Termin anfragen</a>
@@ -1034,22 +1043,22 @@
 
 <h3>Pilot-Workflow</h3>
 <p class="price-sub">Wenn ein konkreter Ablauf feststeht</p>
-<div class="price-amount"><span class="num">ab 350 €</span><span class="unit">netto</span></div>
+<div class="price-amount"><span class="num">ab 350 €</span></div>
 <p class="price-note">Festpreis pro Workflow</p>
-<ul><li> Ein kleiner, klar abgegrenzter Schritt</li><li> Gemeinsam testen und Ergebnis freigeben</li></ul><details class="more"><summary>Alle Leistungen</summary><div class="more-body"><ul><li> Bedienung passend zu euren Programmen</li><li> Übergabe-Termin mit Live-Demo</li><li> 2 Wochen Hotfix-Support</li><li> Größere Piloten nach Spezifikation</li></ul></div></details>
+<ul><li> Ein kleiner, klar abgegrenzter Schritt</li><li> Gemeinsam testen und Ergebnis prüfen</li></ul><details class="more"><summary>Alle Leistungen</summary><div class="more-body"><ul><li> Bedienung passend zu euren Programmen</li><li> Übergabe-Termin mit Live-Demo</li><li> 2 Wochen Hotfix-Support</li><li> Größere Piloten nach Spezifikation</li></ul></div></details>
 <a class="btn btn-primary" href="#kontakt">Pilot besprechen</a>
-</div><div class="price-card"><h3>Prozess-Audit</h3><p class="price-sub">Soll-Ist-Analyse mit Roadmap</p><div class="price-amount"><span class="num">ab 1.500 €</span><span class="unit">netto</span></div><p class="price-note">Festpreis, 2 bis 3 Arbeitstage</p><ul><li> Soll-Ist-Analyse eurer Kernprozesse</li><li> Schriftlicher Bericht mit priorisierter Roadmap</li></ul><details class="more"><summary>Alle Leistungen</summary><div class="more-body"><ul><li> Ehrliche Empfehlung, auch wo sich nichts lohnt</li><li> Umsetzung auf Wunsch aus einer Hand</li></ul><p>Zwei bis drei Tage schaue ich mir eure Abläufe an, wie ein Ingenieur: Soll-Ist-Vergleich statt Bauchgefühl. Ihr bekommt einen schriftlichen Bericht mit priorisierter Roadmap, was sich automatisieren lohnt, was nicht, und in welcher Reihenfolge.</p></div></details><a class="btn btn-primary" href="#kontakt">Audit besprechen</a></div></div><details class="more more-center"><summary>Weitere Stufen: Komplett-Workflow und Individuell</summary><div class="pricing price2"><div class="price-card">
+</div><div class="price-card"><h3>Prozess-Audit</h3><p class="price-sub">Soll-Ist-Analyse mit Roadmap</p><div class="price-amount"><span class="num">ab 1.500 €</span></div><p class="price-note">Festpreis, 2 bis 3 Arbeitstage</p><ul><li> Soll-Ist-Analyse eurer Kernprozesse</li><li> Schriftlicher Bericht mit priorisierter Roadmap</li></ul><details class="more"><summary>Alle Leistungen</summary><div class="more-body"><ul><li> Ehrliche Empfehlung, auch wo sich nichts lohnt</li><li> Umsetzung auf Wunsch aus einer Hand</li></ul><p>Zwei bis drei Tage schaue ich mir eure Abläufe an, wie ein Ingenieur: Soll-Ist-Vergleich statt Bauchgefühl. Ihr bekommt einen schriftlichen Bericht mit priorisierter Roadmap, was sich automatisieren lohnt, was nicht, und in welcher Reihenfolge.</p></div></details><a class="btn btn-primary" href="#kontakt">Audit besprechen</a></div></div><details class="more more-center"><summary>Weitere Stufen: Komplett-Workflow und Individuell</summary><div class="pricing price2"><div class="price-card">
 
 <h3>Komplett-Workflow</h3>
 <p class="price-sub">Mehrere Prozesse in einem Rutsch</p>
-<div class="price-amount"><span class="num">ab 1.900 €</span><span class="unit">netto</span></div>
+<div class="price-amount"><span class="num">ab 1.900 €</span></div>
 <p class="price-note">Festpreis nach Spezifikation</p>
 <ul><li> Mehrere Abläufe end-to-end automatisiert</li><li> Mehrere Datenquellen (PDF, Excel, E-Mail)</li></ul><details class="more"><summary>Alle Leistungen</summary><div class="more-body"><ul><li> Einrichtung &amp; Einweisung eures Teams</li><li> CSV-/Excel-Export für eure Buchhaltung</li><li> 3 Monate Support nach Übergabe</li></ul></div></details>
 <a class="btn btn-primary" href="#kontakt">Projekt besprechen</a>
 </div><div class="price-card">
 <h3>Individuell</h3>
 <p class="price-sub">Wenn's größer wird</p>
-<div class="price-amount"><span class="num">95 €</span><span class="unit">/ h netto</span></div>
+<div class="price-amount"><span class="num">95 €</span><span class="unit">/ h</span></div>
 <p class="price-note">Nach Aufwand, Schätzung vorab</p>
 <ul><li> Schätzung schriftlich vor Beginn</li><li> Wöchentliche Status-Updates</li></ul><details class="more"><summary>Alle Leistungen</summary><div class="more-body"><ul><li> Abnahme in Etappen</li><li> Mehrere Quellen, größere Workflows</li><li> CSV-Export, abgestimmt auf euer Importformat</li></ul></div></details>
 <a class="btn btn-secondary" href="#kontakt">Anfrage stellen</a>
@@ -1070,7 +1079,7 @@
 <div class="about-text">
 
 <h2>Ich bin Emre. Ich baue euren Ablauf.</h2>
-<p>Vom ersten Gespräch bis zur Übergabe arbeitet ihr direkt mit mir. Ich prüfe die Verbindung, baue den Ablauf und zeige euch, wie ihr damit arbeitet.</p>
+<p>Ich bin Maschinenbau-Ingenieur (Master). Vom ersten Gespräch bis zur Übergabe arbeitet ihr direkt mit mir. Ich prüfe die Verbindung, baue den Ablauf und zeige euch, wie ihr damit arbeitet.</p>
 <p>Vor Ort in Hamburg und im Umkreis von etwa 50 km, bundesweit per Remote. Erreichbar Mo bis Fr 9 bis 17 Uhr, per WhatsApp jederzeit.</p>
 <div class="about-cta">
 <a class="btn btn-primary" href="tel:+491736762711">
@@ -1125,7 +1134,7 @@
 <details class="more"><summary>Weitere Fragen</summary><div class="more-body">
 <details class="faq-item">
 <summary>Was ist Prozessautomatisierung für KMU?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg></summary>
-<div class="faq-body">Prozessautomatisierung heißt, dass ein Ablauf, der bei euch jede Woche gleich läuft, von einem Programm erledigt wird, zum Beispiel Belege erfassen oder eine Buchung in einen Rechnungsentwurf übertragen. Ein Mensch prüft das Ergebnis und gibt frei. Für kleine Büros, Handwerksbetriebe und den Mittelstand baue ich das zum vereinbarten Festpreis. Kosten für beteiligte Dienste klären wir vorab.</div>
+<div class="faq-body">Prozessautomatisierung heißt, dass ein Ablauf, der bei euch jede Woche gleich läuft, von einem Programm erledigt wird, zum Beispiel Belege erfassen oder eine Buchung in einen Rechnungsentwurf übertragen. Ein Mensch prüft das Ergebnis. Für kleine Büros, Handwerksbetriebe und den Mittelstand baue ich das zum vereinbarten Festpreis. Kosten für beteiligte Dienste klären wir vorab.</div>
 </details>
 <details class="faq-item">
 <summary>Wie richte ich ein digitales Büro ein?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg></summary>
@@ -1141,7 +1150,7 @@
 </details>
 <details class="faq-item">
 <summary>Brauche ich für den Workflow eine Cloud-Lösung?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg></summary>
-<div class="faq-body">Ihr braucht keine Cloud-Plattform und kein eigenes Konto. Die Anwendung läuft auf eurem Rechner, sendet Belege zur Texterkennung aber an Mistral über den EU-Endpunkt; Prüfung, Freigabe und Export bleiben lokal. E-Rechnungen im XML-Format liest sie ohne externen Dienst.</div>
+<div class="faq-body">Ihr braucht keine Cloud-Plattform und kein eigenes Konto. Die Anwendung läuft auf eurem Rechner, sendet Belege zur Texterkennung aber an Mistral über den EU-Endpunkt; Prüfung und Export bleiben lokal. E-Rechnungen im XML-Format liest sie ohne externen Dienst.</div>
 </details>
 <details class="faq-item">
 <summary>Wie schnell ist ein Pilot einsatzbereit?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg></summary>
