@@ -15,3 +15,6 @@ Thumbs.db
 
 # Local design audits and screenshots
 .hallmark/
+
+# Lokale Preview-Konfiguration, nicht deployen
+.claude/
